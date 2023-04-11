@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+	<test name="Test">
+		<parameter name="myURL" value="http://www.nguoianphu.com" />
+		<parameter name="myTitle"
+			value="Home page Nguoi An Phu huyen An Phu tinh An Giang" />
+		<classes>
+			<class name="com.TestTitle" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
